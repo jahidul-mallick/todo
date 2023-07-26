@@ -9,8 +9,7 @@ const App = () => {
   const [cards, setCards] = React.useState([
     { id: 1, heading: "Untitled 1", subHeading: "add a sub title here 1", para: "this is your body 1" },
     { id: 2, heading: "Untitled 2", subHeading: "add a sub title here 2", para: "this is your body 2" },
-    // { id: 3, heading: "Untitled 3", subHeading: "add a sub title here 3", para: "this is your body 3" },
-    // { id: 4, heading: "Untitled 4", subHeading: "add a sub title here 4", para: "this is your body 4" },
+    { id: 3, heading: "Untitled 3", subHeading: "add a sub title here 3", para: "this is your body 3" },
   ]); 
   const [activeCard, setActiveCard] = React.useState(2);
   const cardsPerPage = 3;

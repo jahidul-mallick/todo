@@ -18,7 +18,7 @@ body {
   align-items: center;
   overflow-x: hidden;
   height: 88vh;
-  padding-left: 40px;
+  padding-left: 70px;
 
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .arrow-right {
-  right: 435px;
+  right: 430px;
 }
 
 .arrow-right:hover{

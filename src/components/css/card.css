@@ -5,10 +5,10 @@
     padding: 16px;
     margin-right: 80px;
     height: 75vh;
-    width: 310px;
+    width: 290px;
     display: flex;
     flex-direction: column;
-    min-width: 310px; 
+    min-width: 250px; 
     flex-shrink: 0; 
     opacity: 0.5;
     border: 1px solid black;
