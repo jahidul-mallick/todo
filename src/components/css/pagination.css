@@ -1,0 +1,23 @@
+.pagination {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 6vh;
+}
+.page-button{
+  margin-right: 15px;
+}
+
+.box{
+  padding-right: 16px;
+  color: black;
+}
+.box-mid{
+  margin-right: 16px;
+  padding: 2px;
+  border: 1px solid black;
+  border-radius: 3px;
+
+}

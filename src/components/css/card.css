@@ -1,0 +1,39 @@
+.card {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    margin-right: 80px;
+    height: 75vh;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    min-width: 310px; 
+    flex-shrink: 0; 
+    opacity: 0.5;
+    border: 1px solid black;
+  }
+  
+  .card.active {
+    opacity: 1;
+  }
+  
+  .heading {
+    font-size: 23px;
+    font-weight: bold;
+  }
+  
+  .sub-heading {
+    margin-top: 3px;
+    font-size: 18px;
+    color: #777;
+    width: 300px;
+
+  }
+  
+  .para {
+    font-size: 14px;
+    margin-top: 8px;
+    width: 300px;
+    height: 340px;
+  }
