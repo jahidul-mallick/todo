@@ -24,6 +24,10 @@ const App = () => {
     };
     setCards([...cards, newCard]);
     handleCardChange(1)
+    if((cards.length)==0){
+      setActiveCard(1)  
+    }else if((cards.length)==1) setActiveCard(2)  
+    
   };
 
   const handleCopyCard = () => {
@@ -39,10 +43,24 @@ const App = () => {
     const filteredCards = cards.filter((card) => card.id !== activeCard);
     setCards(filteredCards);
   
-    if (filteredCards.length > 0) {
+    if (filteredCards.length > 9) {
+
       handleCardChange(-1)
-    } else {
-      //setActiveCard(filteredCards[0].id); 
+    }
+    
+    else if(filteredCards.length > 4){
+      setActiveCard((filteredCards.length)/2)
+    }
+    else if(filteredCards.length > 1){
+    setActiveCard(filteredCards[1].id);
+
+    } 
+    else if(filteredCards.length == 1){
+    setActiveCard(filteredCards[0].id);
+
+    } 
+    else {
+      // setActiveCard(filteredCards[0].id); 
       setActiveCard(null); 
     }
   };

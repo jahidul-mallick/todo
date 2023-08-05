@@ -1,5 +1,6 @@
 .navbar {
     height: 5vh;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;

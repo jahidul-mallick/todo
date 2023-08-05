@@ -2,7 +2,7 @@
 import React from "react";
 import { FiPlus, FiCopy, FiTrash, FiMoreVertical } from "react-icons/fi";
 import "./css/navbar.css";
-
+import DropDown from "./DropDown.js"
 const Navbar = ({ onCreateCard, onCopyCard, onDeleteCard, onShowMoreOptions }) => {
   return (
     <div className="navbar">
@@ -18,6 +18,9 @@ const Navbar = ({ onCreateCard, onCopyCard, onDeleteCard, onShowMoreOptions }) =
       <button className="moreoptions" id="btn" onClick={onShowMoreOptions}>
         <FiMoreVertical />
       </button>
+      <div >
+        <DropDown/>
+      </div>
     </div>
   );
 };
